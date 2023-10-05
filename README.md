@@ -8,7 +8,7 @@ The included project has been done using Xcode 15.0 and tested under iOS 16 and 
 
 As you can see below, with 3 tabs the scroll position is maintained as we swipe from tab to tab:
 
-https://github.com/yannxou/TabViewLostScrollPosition/assets/5954961/e5491422-3395-4412-81ce-6b38b2951746
+https://github.com/yannxou/TabViewLostScrollPosition/assets/5954961/c53442a4-06a4-4c79-b6a0-86f0512bfeba
 
 
 ## What about 4?
