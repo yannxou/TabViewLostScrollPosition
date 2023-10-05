@@ -15,12 +15,12 @@ https://github.com/yannxou/TabViewLostScrollPosition/assets/5954961/c53442a4-06a
 
 If we do the same test with 4 tabs you'll notice that the tab #0 resets its scroll position when we come back after going through them all. Moreover, if we later go again to the right-most tab we can see it also lost its scroll position. Why is that?
 
-https://github.com/yannxou/TabViewLostScrollPosition/assets/5954961/67aa065d-1fc8-4d40-9eae-b29da36207fa
+https://github.com/yannxou/TabViewLostScrollPosition/assets/5954961/4b51a6ab-6c82-4c5c-b725-9da0e137d84b
 
 
 This gets more interesting if we do the same test but using the `Picker` instead of the swipe gesture. In this case all scroll positions are maintained:
 
-https://github.com/yannxou/TabViewLostScrollPosition/assets/5954961/a1820e9a-eb5a-442e-b075-6ac00552b5b1
+https://github.com/yannxou/TabViewLostScrollPosition/assets/5954961/8063a8be-3ccd-490e-9e30-5bde059f6879
 
 
 ## Some sort of explanation
@@ -29,12 +29,13 @@ It seems that `TabView` does keep somehow the state of all views since the scrol
 
 This is more evident if we do the test with 5 tabs:
 
-https://github.com/yannxou/TabViewLostScrollPosition/assets/5954961/68431f4d-2014-422d-b4e7-b870b573a7d3
+https://github.com/yannxou/TabViewLostScrollPosition/assets/5954961/a73048dc-399d-4910-9f52-919735a9867e
 
 
 And again, everything's fine when using the `Picker` or updating programatically:
 
-https://github.com/yannxou/TabViewLostScrollPosition/assets/5954961/6c1bf3e0-e533-4aa9-a342-81b40dbbd818
+https://github.com/yannxou/TabViewLostScrollPosition/assets/5954961/604fc921-cba7-4d50-b29b-e013a6ed088c
+
 
 
 ## Bug?
